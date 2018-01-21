@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/gallery.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -17,8 +18,8 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">UTD Blockchain</a></h1>
+				<header id="header">
+					<h1><a href="index.html">UTD Blockchain</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -26,7 +27,7 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="contact.html">Contact Us</a></li>
+											<!-- <li><a href="contact.html">Contact Us</a></li> -->
 											<li><a href="Photos.html">Photos</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->
@@ -36,21 +37,52 @@
 								</li>
 							</ul>
 						</nav>
+				</header>
+
+				
+					
+				<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>Photos</h2>
+						<p>We'll post all the pictures we click on this page.</p>
 					</header>
 
-				<!-- Main -->
-					<article id="main">
-						<header>
-							<h2>Photos</h2>
-							<p>We'll post all the pictures we click on this page.</p>
-						</header>
-						<section class="wrapper style5">
+					<section class="wrapper style5">
 							<div class="inner">
 
-								<h3>Saturday Workshops</h3>
+								<!-- Slideshow container -->
+								<div class="slideshow-container">
 
-								<img src="photo1.jpg">
-								<img src="photo2.jpg">
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides fade">
+										<img src="photo3.jpg" style="width:100%">
+										<div class="text">2018 Kick-Off</div>
+								</div>
+
+								<div class="mySlides fade">
+									<img src="photo1.jpg" style="width:100%">
+									<div class="text">Saturday Workshop</div>
+								</div>
+						
+								<div class="mySlides fade">
+									<img src="photo2.jpg" style="width:100%">
+									<div class="text">Saturday Workshop</div>
+								</div>
+						
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1)">&#10095;</a>
+							</div>
+						<br>
+						
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(1)"></span> 
+							<span class="dot" onclick="currentSlide(2)"></span> 
+							<span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+							
 
 							</div>
 						</section>
@@ -79,6 +111,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/gallery.js"></script>
 
 	</body>
 </html>
