@@ -1,0 +1,23 @@
+{
+  "name": "utd_bc_website",
+  "version": "1.0.0",
+  "description": "This is the code for the UTD Blockchain code website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utdcrypto/CryptoSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utdcrypto/CryptoSite/issues"
+  },
+  "homepage": "https://github.com/utdcrypto/CryptoSite#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
