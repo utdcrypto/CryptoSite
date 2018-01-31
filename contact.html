@@ -30,8 +30,9 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
+											<li><a href="resources.html">Resources</a></li>
+											<li><a href="photos.html">Photos</a></li>
 											<li><a href="contact.html">Contact</a></li>
-											<li><a href="Photos.html">Photos</a></li>
 										</ul>
 									</div>
 								</li>
@@ -40,46 +41,70 @@
 					</header>
 
 				<!-- Main -->
-					<article id="main">
+				<article id="main">
 						<header>
-							<h2>Contact us</h2>
-							<p>Let us know what you think about the club</p>
+							<h2>Contact Us</h2>
+							<p>Have any questions? Let us know!</p>
 						</header>
 						<section class="wrapper style5">
-							<div class="contact">
-							
-								<form class= "contact-form" method = "post" action = "contact.php" > <!-- link to php file will go in opening form tag -->
-								  <div class="split">
-							
-							
-									<div class="name-bundle">
-									<label><span class="required">* <?php echo $nameErr;?></span>Name</label>
-									<input type="text" name="name" placeholder="John Smith">
-									</div>
-							
-							
-									<div class="phone-bundle">
-									<label>Phone</label>
-									<input type="text" name="phone" placeholder="867-5309">
-									</div>
-							
-								  </div>
-							
-							
-								  <label> <span class="required">* <?php echo $emailErr;?></span>Email</label>
-								  <input type="email" name="email" placeholder="john.smith@email.com">
-							
-							
-								  <label><span class="required">*</span>Message</label>
-								  <textarea name = "comment" placeholder="Insert message here"></textarea>
-							
-							
-								  <input type="submit" name = "submit" value = "Submit">
-								</form>
-							
-							  </div>
-						</section>
+							<div class="inner">
+
+								
+
+								<section>
+									<h4>Tell us what you think</h4>
+									<form method="post" action="#">
+										<div class="row uniform">
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+											</div>
+											<div class="6u$ 12u$(xsmall)">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<div class="select-wrapper">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="2">Shipping</option>
+														<option value="3">Administration</option>
+														<option value="4">Human Resources</option>
+													</select>
+												</div>
+											</div>
+											
+										
+											<div class="12u$">
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<div class="12u$">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="special" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</section>
+
+								
 					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
 
 				<!-- Footer -->
 				<footer id="footer">
